@@ -23,7 +23,7 @@
         <ul class="nav-list">
           <li class="item"><a class="nav-link" href="./index.html">Студия</a></li>
           <li class="item"><a class="nav-link current" href="./portfolio.html">Портфолио</a></li>
-          <li class="item"><a class="nav-link" href="">Контакты</a></li>
+          <li class="item"><a class="nav-link" href="#footer">Контакты</a></li>
         </ul>
       </nav>
       <address>
@@ -175,9 +175,9 @@
 
   </main>
   <!-- футер -->
-  <footer class="footer-section">
+  <footer id="footer" class="footer-section">
     <div class="container flex-div">
-      <div>
+      <div class="footer-div">
         <a class="footer-logo" href="./index.html">
           <p class="logo">Web<span>Studio</span></p>
         </a>
@@ -222,6 +222,22 @@
           </li>
         </ul>
       </div>
+      <!-- Footer form -->
+      
+      <form class="footer-form">
+        <b class="subscribe-caption">Подпишитесь на рассылку</b>
+        <div class="enter-mail">
+          <label class="footer-label">
+            <input type="email" name="footerEmail" class="footer-input" placeholder="E-mail" required>
+          </label>
+          <button class=" hero-button subscribe-button" type="submit">
+            <span class="subscribe-text">Подписаться</span>
+            <svg class="send-icon" width="24" height="24">
+              <use href="./images/sprite.svg#send"></use>
+            </svg>
+          </button>
+        </div>
+      </form>
     </div>
   </footer>
 </body>
