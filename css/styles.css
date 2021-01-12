@@ -151,7 +151,7 @@ nav .logo span {
 /* Studio main */
 /* Hero-section */
 .hero-section {
-  max-width: 1600px;
+  max-width: 100%;
   margin: 0 auto;
   padding-top: 200px;
   padding-bottom: 200px;
@@ -206,7 +206,7 @@ nav .logo span {
   height: 100%;
   background-color: rgba(0, 0, 0, 0.2);
   opacity: 1;
-  transition: opacity 700ms ease;
+  transition: opacity 400ms ease;
 }
 .backdrop.is-hidden {
   pointer-events: none;
@@ -219,7 +219,7 @@ nav .logo span {
   top: 50%;
   left: 50%;
   transform: scale(1) translate(-50%, -50%);
-  transition: transform 1000ms ease-in;
+  transition: transform 500ms ease-in;
   min-width: 528px;
   min-height: 581px;
   background: #ffffff;
