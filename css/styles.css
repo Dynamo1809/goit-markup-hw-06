@@ -128,7 +128,6 @@ nav .logo span {
 .nav-link:focus,
 .nav-contact:hover,
 .nav-contact:focus,
-.nav-link:link,
 .nav-link.current {
   color: var(--accent-color);
 }
